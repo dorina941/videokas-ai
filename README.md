@@ -1,27 +1,41 @@
-# VideoKas AI
+# 🎬 VideoKas AI
 
-VideoKas AI - generate videos from images using AI (MVP)
+Aplicación en Python para generar vídeos cortos a partir de imágenes.
 
-## Setup
+Este proyecto es un MVP (Minimum Viable Product) que permite subir una imagen, definir un prompt y generar un vídeo básico repitiendo frames.
 
-1. Create a virtual environment (recommended):
+---
 
-   ```bash
-   python -m venv .venv
-   ```
+## 🚀 Demo
 
-2. Activate it, then install dependencies:
+Sube una imagen, selecciona duración y genera un vídeo en segundos.
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+---
 
-3. Run the app:
+## 🧠 Funcionalidades
 
-   ```bash
-   python app.py
-   ```
+- Subida de imagen
+- Input de prompt (preparado para IA futura)
+- Control de duración del vídeo
+- Generación de vídeo (MP4 o GIF)
+- Guardado automático en carpeta `outputs`
 
-## Usage
+---
 
-Open the URL shown in the terminal (usually `http://127.0.0.1:7860`). Upload an image, adjust the duration, and click **Generate video**. Files are saved under the `outputs/` folder.
+## 🛠️ Tecnologías
+
+- Python 3
+- Gradio
+- imageio
+- numpy
+- moviepy
+
+---
+
+## ▶️ Cómo ejecutar el proyecto
+
+1. Clonar el repositorio:
+
+```bash
+git clone https://github.com/dorina941/videokas-ai.git
+cd videokas-ai
