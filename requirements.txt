@@ -4,3 +4,5 @@ imageio
 imageio-ffmpeg
 moviepy
 numpy
+openai>=1.51
+python-dotenv
